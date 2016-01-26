@@ -6,9 +6,9 @@ on in the past.
 BugSquisher was an iOS game I built based upon some of the early-childhood reading and 
 phonics ideas that I learned while working on [ELF](https://github.com/david-southern/ELF).
 
-I was looking to learn iOS developemnt, and I thought it would be fun to build a kid-friendly
+I was looking to learn iOS development, and I thought it would be fun to build a kid-friendly
 phonics game.  The initial idea was to have bugs crawl across the screen with various phonemes
-labeled on thier back.  The child would then squish only those bugs that `did|did not` create
+labeled on thier back.  The child would then squish only those bugs that did not create
 a valid word with the current level's phoneme prefix.  After developing the first level, I added three
 three more levels with the same basic phoneme management, but with different gameplay manipulation, 
 requiring the children to pick apples from a tree, drive dumptrucks through a sandbox to build a 
@@ -16,9 +16,7 @@ sandcastle, and place bricks in a garden wall.
 
 I used the Marmalade game engine, although at the time is was called AirPlay, which is 
 why that name shows up in the code.  This was my first return to C++ after around 8 years away, so
-it might be a bit rough here and there.  The game made it to a beta state where I did some basic
-testing with several of my nieces and nephews, to generally positive reviews, but I dropped it
-at that point, as "real world" work picked up and my interest turned to Unity development.
+it might be a bit rough here and there.
 
 One thing that I particularly like about this effort was the 
 [GameFramework](https://github.com/david-southern/BugSquisher/tree/master/source/GameFramework)
