@@ -1,0 +1,23 @@
+[S3E]
+SplashScreenBkR=255
+SplashScreenBkG=255
+SplashScreenBkB=255
+
+MemSize=30000000
+MemSizeDebug=30000000
+
+# Tell iPhone4 to use high-resolution graphics
+iPhoneScaleFactor = 200
+
+# Force Landscape orientation
+FixScreenOrientation=2
+
+[GX] 
+DataCacheSize=1000000 
+
+[Util]
+#MemoryBreakpoint=1605
+
+
+#[TRACE]
+#BUGTRACE=1

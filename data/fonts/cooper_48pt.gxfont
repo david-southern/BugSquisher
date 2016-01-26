@@ -1,0 +1,12 @@
+//Temp file created by AS Font Builder (User:  At: 03/19/11 01:10:50)
+//Command Line:
+//:  -fontdesc "0;-64;0;0;0;400;0;0;0;0;3;2;1;18;Cooper Blk BT" 0 4 0  -pad 0 0 
+//:  -col #FFFFFF -shadow 0 -spacing 4 -force16 0
+
+CIwGxFont
+{
+	utf8 1
+	image cooper_48pt.tga
+	charmap "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+
+}

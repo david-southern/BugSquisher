@@ -1,0 +1,52 @@
+
+CIwResGroup
+{
+    name "images"
+
+    "images/ladybug.png"
+    "images/splat.png"
+    "images/bugs_background.png"
+    "images/cross.png"
+    "images/up_arrow.png"
+    "images/right_arrow.png"
+    "images/dot.png"
+    "images/apple.png"
+    "images/apples_background.png"
+
+    "images/sandbox_background.png"
+    "images/sandcastle.png"
+    "images/dumptruck_empty.png"
+    "images/dumptruck_full.png"
+
+    "images/wall_background.png"
+    "images/brick1.png"
+    "images/brick2.png"
+    "images/brick3.png"
+    "images/brick_target.png"
+
+    "images/star_0.png"
+    "images/star_1.png"
+    "images/star_2.png"
+    "images/star_3.png"
+    "images/star_4.png"
+    "images/star_5.png"
+
+    "images/MainMenu.png"
+    "images/ChangePlayerButton.png"
+    "images/StartGameButton.png"
+    "images/LevelSelectionScreen.png"
+    "images/MainMenuButton.png"
+    "images/BogsIcon.png"
+    "images/ApplesIcon.png"
+    "images/WallIcon.png"
+    "images/SandboxIcon.png"
+
+    fonts/trebuchet8pt.gxfont
+    fonts/trebuchet16pt.gxfont
+    fonts/trebuchet24pt.gxfont
+    fonts/trebuchet36pt.gxfont
+    fonts/cooper_48pt.gxfont
+    fonts/cooper_24pt.gxfont
+    fonts/cooper_18pt.gxfont
+    fonts/cooper_12pt.gxfont
+}

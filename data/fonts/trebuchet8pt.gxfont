@@ -1,0 +1,12 @@
+//Temp file created by AS Font Builder (User:  At: 03/05/11 14:58:49)
+//Command Line:
+//:  -fontdesc "0;-11;0;0;0;400;0;0;0;1;0;0;2;32;Trebuchet MS" 0 4 0  -pad 0 0 
+//:  -col #FFFFFF -shadow 0 -spacing 4 -force16 0
+
+CIwGxFont
+{
+	utf8 1
+	image trebuchet8pt.tga
+	charmap " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~ "
+
+}

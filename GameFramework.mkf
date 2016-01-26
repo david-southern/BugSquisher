@@ -1,0 +1,55 @@
+options
+{
+    strict
+}
+
+files
+{
+    (source\GameFramework\Transformations)
+    [Transformations]
+    ITransformation.h
+    AnimatableParameters.h
+    AnimatableParameters.cpp
+    AllTransforms.h
+    AnchorToTransform.h
+    AnchorToTransform.cpp
+    AnchorTransform.h
+    AnchorTransform.cpp
+    OrbitTransform.h
+    OrbitTransform.cpp
+    OrientToTransform.h
+    OrientToTransform.cpp
+    RotationTransform.h
+    RotationTransform.cpp
+    ScaleTransform.h
+    ScaleTransform.cpp
+    TranslationTransform.h
+    TranslationTransform.cpp
+
+    (source\GameFramework\Sprites)
+    [Sprites]
+    Sprite.h
+    AllSprites.h
+    Sprite.cpp
+    SpriteGroup.h
+    SpriteGroup.cpp
+    FlipBookSprite.h
+    FlipBookSprite.cpp
+    PathFollowingSprite.h
+    PathFollowingSprite.cpp
+    TextSprite.h
+    TextSprite.cpp
+
+    (source\GameFramework)
+    [GameFramework]
+    Constants.h
+    GameInterfaces.h
+    GameManager.h
+    ResourceManager.h
+    StateManager.h
+    GameManager.cpp
+    ResourceManager.cpp
+    StateManager.cpp
+    TouchManager.h
+    TouchManager.cpp
+}

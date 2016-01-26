@@ -1,0 +1,124 @@
+options
+{	
+    strict
+    s3e-data-dir="data"
+}
+
+subprojects
+{
+    GameFramework
+    iw2d
+}
+
+includepaths 
+{ 
+    source\Game
+    source\Game\Bugs
+    source\Game\Apples
+    source\Game\Sandbox
+    source\Game\Wall
+    source\GameFramework
+    source\GameFramework\Transformations
+    source\GameFramework\Sprites	
+} 
+
+files
+{
+    [Game]
+    (source\Game)
+    main.cpp
+    GameVariables.h
+    LevelSelection.cpp
+    LevelSelection.h
+    LevelSummary.cpp
+    LevelSummary.h
+    MainMenu.cpp
+    MainMenu.h
+    PointsManager.cpp
+    PointsManager.h
+    PhonemeManager.cpp
+    PhonemeManager.h
+    WordBuilder.cpp
+    WordBuilder.h
+
+    [Game, Bugs]
+    (source\Game\Bugs)
+    Bug.cpp
+    Bug.h
+    BugsLevel.cpp
+    BugsLevel.h
+
+    [Game, Apples]
+    (source\Game\Apples)
+    Apple.cpp
+    Apple.h
+    ApplesLevel.cpp
+    ApplesLevel.h
+
+    [Game, Sandbox]
+    (source\Game\Sandbox)
+    Dumptruck.cpp
+    Dumptruck.h
+    Sandcastle.cpp
+    Sandcastle.h
+    SandboxLevel.cpp
+    SandboxLevel.h
+
+    [Game, Wall]
+    (source\Game\Wall)
+    Brick.cpp
+    Brick.h
+    BrickTarget.cpp
+    BrickTarget.h
+    WallLevel.cpp
+    WallLevel.h
+
+    [Data]
+    (data)
+    images.group
+}
+
+deployments
+{
+    iphone-appid='VKC66W2UB4.*'
+}
+
+assets
+{
+    [Bugs]
+    (data)
+    i3d_splash.jpg
+    splashscreen.jpg
+    DING.wav
+    BUZZ.wav
+
+    #Deploy .group.bin files from the 'data-ram/data-gles1' directory if they
+    #have been written there by running the application in resource building
+    #mode, otherwise deploy pre-built binaries from the 'data' directory.
+    #
+    #For your own application, you are likely to want only the
+    #'data-ram/data-gles1' directory specified here.
+    #
+    #See the IwResManager documentation for more information on resource building.
+    (data-ram/data-gles1)
+    images.group.bin
+    
+    # (data)
+    # images.group
+
+    [artbuild]
+    (data)
+    .
+}
+
+deployments
+{
+    assets=Bugs
+    caption='Phonics'
+    name='Backyard Phonics'
+
+    [artbuild]
+    win32
+    assets=artbuild
+}
+
